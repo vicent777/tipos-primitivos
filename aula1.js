@@ -14,8 +14,8 @@ var tal = 12345
 console.log(tal)
 
 //utilização do LET - permite reatribuir um valor para uma variável dentro de um bloco. Ex: saldo de uma conta
-let rotu = "Natalya"
-rotu = 0258
+rotu = "Natalya"
+rotu = 258
 console.log(rotu)
 
 /*utilizaçãodo CONST - Apenas permite utilizar em uma variável dentro do bloco, não podendo alterar a variável. Ex: IR
