@@ -24,14 +24,17 @@ code . (abre o vscode no caminho)
 
 #configuração do git
 git config --global user.name (verifica o nome que está cadastrado na máquina)
-git config --global user.name vicent777 (adiciona meu usuário do github à maquina) 
-git config --global user.email viniciushx@gmail.com (adiciona meu e-mail do github a maquina)
+git config --global user.name "vicent777" (adiciona meu usuário do github à maquina) 
+git config --global user.email "viniciushx@gmail.com" (adiciona meu e-mail do github a maquina)
 
 #baixar do github para o vscode
 git clone link do repositorio do github
 
 #fazer upload para o github
 
-git status (mudanças feitas e status do meu)
-git add .
-git commit -m "atualizando o github" ()
+git status (mudanças feitas e status do meu repositório)
+git init (??)
+git add . (adicionar as mudanças)
+git commit -m "atualizando o github" (comitar as mudanças)
+git push origin main (vai confirmar as mudanças e pedir token de acesso /token pode ser buscado no github)
+git push (vai confirmar as mudanças sem precisar de token)
