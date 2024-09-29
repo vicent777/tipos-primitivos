@@ -37,4 +37,4 @@ git init (??)
 git add . (adicionar as mudanças)
 git commit -m "atualizando o github" (comitar as mudanças)
 git push origin main (vai confirmar as mudanças e pedir token de acesso /token pode ser buscado no github)
-git push (vai confirmar as mudanças sem precisar de token)
+git push (vai confirmar as mudanças sem precisar de token).
