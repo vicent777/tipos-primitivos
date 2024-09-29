@@ -39,4 +39,9 @@ git commit -m "atualizando o github" (comitar as mudanças)
 git push origin main (vai confirmar as mudanças e pedir token de acesso /token pode ser buscado no github)
 git push (vai confirmar as mudanças sem precisar de token).
 
-1111
+#retirar meu token
+git credential-cache exit
+
+#remover usuario e email
+git config --global --unset user.name
+git config --global --unset user.email
