@@ -27,6 +27,10 @@ git config --global user.name (verifica o nome que está cadastrado na máquina)
 git config --global user.name "vicent777" (adiciona meu usuário do github à maquina) 
 git config --global user.email "viniciushx@gmail.com" (adiciona meu e-mail do github a maquina)
 
+#remover usuario e email
+git config --global --unset user.name
+git config --global --unset user.email
+
 #baixar do github para o vscode
 git clone link do repositorio do github
 
@@ -45,7 +49,3 @@ git config --global credential.helper cache (restaura o padrão, sem timeout)
 
 git config --global --unset credential.helper (desativa o armazenamento de credenciais)
 
-
-#remover usuario e email
-git config --global --unset user.name
-git config --global --unset user.email
