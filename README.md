@@ -39,8 +39,12 @@ git commit -m "atualizando o github" (comitar as mudanças)
 git push origin main (vai confirmar as mudanças e pedir token de acesso /token pode ser buscado no github)
 git push (vai confirmar as mudanças sem precisar de token).
 
-#retirar meu token
-git credential-cache exit
+#retirar meu token de credenciais
+git config --global credential.helper 'cache --timeout=900'(faz pedir o token a cada 15min para fazer um push)
+git config --global credential.helper cache (restaura o padrão, sem timeout)
+
+git config --global --unset credential.helper (desativa o armazenamento de credenciais)
+
 
 #remover usuario e email
 git config --global --unset user.name
